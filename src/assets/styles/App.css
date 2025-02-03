@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --root-buryl-wood: #7a4e3d;  /* Root Buryl Wood */
+  --peachpuff: #ffdab9;       /* Peachpuff */
+  --soft-buryl: #9c6a53;      /* A lighter shade of Root Buryl Wood */
+  --soft-peach: #fcd0a1;      /* A lighter shade of Peachpuff */
+  --dark-buryl: #5a3528;      /* A darker shade of Root Buryl Wood */
+  --dark-peach: #e1a88a;      /* A darker shade of Peachpuff */
+  --black: #000000;           /* Black */
+  --white: #ffffff;           /* White */
+}
+
+.play {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.deyplay{
+  margin-top: auto;
+  justify-content: space-around;
+  background-color: burlywood;
+  display: flex;
+  color: whitesmoke;
+  padding: 18px;
+}
+.nav {
+  background-color:burlywood;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navlink {
+  text-decoration: none;
+
+  color: white;
+}
+.jay{
+  color:peachpuff;
+  font-style: italic;
+  font-size: 5rem;
+}
+
+.backg{
+  background-image: url("./assets/images/myweb.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100dvh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;  */
+}
+ 
+.write{
+  text-align: center;
+}
+
+.hh{
+  color:peachpuff;
+  font-size: 2rem;
+  text-align: center;
+  
+}
+
+.myp{
+  color: peachpuff;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
